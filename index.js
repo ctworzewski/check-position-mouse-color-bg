@@ -1,13 +1,14 @@
 
+const h1 = document.querySelector('h1');
 document.body.addEventListener('click', function (event) {
     // console.log('Test');
 
     const x = event.clientX;
     const y = event.clientY;
     
-    const h1 = document.createElement('h1');
-    document.body.appendChild(h1);
-    h1.style.textAlign = 'center';
+//     const h1 = document.createElement('h1');
+//     document.body.appendChild(h1);
+//     h1.style.textAlign = 'center';
     h1.textContent = x + ', ' + y;
 
 //     console.log(x + ', ' + y);
